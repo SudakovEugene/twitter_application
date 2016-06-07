@@ -1,0 +1,39 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database & dumps.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sql
+/db/*.sql.bz2
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp/
+.sass-cache/
+*.tmp
+*.DS_Store
+passenger.3000*
+
+# Ignore application configuration.
+config/database.yml
+config/secrets.yml
+config/sidekiq.yml
+
+# Doc files
+doc/
+
+# JetBrains.
+.idea/
+
+# Node & Bower
+/node_modules/
+npm-debug.log
+/vendor/assets/bower_components/
+
+# Assets
+/public/system/
+/public/assets/
+ *.map
+# Lib
+/lib/tasks/

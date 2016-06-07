@@ -1,0 +1,33 @@
+<% provide(:title, "Sign in") %>
+
+
+<div class="container">
+
+<div class="row">
+  <div class="col-sm-4"></div>
+
+  <div class="col-sm-4">
+
+    <h1>Sign in</h1>
+
+  <%= form_for(:session, url: sessions_path) do |f| %>
+
+        <input type="email" name="session[email]" class="form-control" placeholder="Email address" required="" autofocus="">
+
+        <input type="password" name="session[password]" class="form-control" placeholder="Password" required="">
+
+       <!-- <button class="btn btn-lg btn-primary btn-block" type="submit" name="commit">Create my account</button> -->
+
+        <%= f.submit "Sign in", class: "btn btn-large btn-primary" %>
+    <% end %>
+
+    <p>New user? <%= link_to "Sign up now!", signup_path %></p>
+  </div>
+
+  <div class="col-sm-4"></div>
+
+</div>
+
+</div>
+
+
