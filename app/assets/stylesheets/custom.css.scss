@@ -243,10 +243,13 @@ input {
 /* microposts */
 
 .microposts {
+  padding-left: 0px;
   list-style: none;
   margin: 10px 0 0 0;
 
   li {
+    float: none;
+    display: block;
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
   }
@@ -266,4 +269,16 @@ aside {
     height: 100px;
     margin-bottom: 5px;
   }
+}
+
+.button {
+  width: 100px;
+}
+
+.no-padding {
+  padding-left:0px;
+}
+
+.sev {
+  margin-top:0px;
 }
