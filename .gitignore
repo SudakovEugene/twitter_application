@@ -36,4 +36,4 @@ npm-debug.log
 /public/assets/
  *.map
 # Lib
-#/lib/tasks/
+/lib/tasks/
