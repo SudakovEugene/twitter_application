@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
@@ -101,11 +101,12 @@ li {
 
 
 footer {
-  clear: both;
+
   left: 0;
   bottom: 0;
   width: 100%;
   height: 50px;
+  /* margin-top: 50px; */
 }
 
 footer a {
@@ -296,10 +297,17 @@ aside {
   width: 100px;
 }
 
+.button2 {
+  width: 150px;
+}
 .no-padding {
   padding-left:0px;
 }
 
 .sev {
   margin-top:0px;
+}
+
+.text {
+  text-align: center;
 }
